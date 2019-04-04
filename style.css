@@ -6,3 +6,42 @@ nav{
     text-transform: uppercase;
     font-family: PT Sans Narrow;
 }
+
+header{
+
+   height: 1000px;
+   width:100%;
+   background-size:cover;
+   background-image:url("KC_HeaderTest1.jpeg");
+   
+}
+.pricing h1{
+    text-align: center;
+}
+
+.pricing{
+    text-align: center;
+    background-color: white;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+}
+header p{
+    color: black;
+    font-size: 100pt;
+}
+
+.teams img {
+    height: 90px;
+    width: 90px;
+    border-radius: 60%;
+}
+
+.services{
+    text-align: center;
+}
+.footer {
+    
+}

@@ -2,39 +2,40 @@
 <html>
 
 <head>
-
+	<title>Instant Flash</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<title>Photography</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
 <body>
 
 	<!--NavBar-->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Instant Photography</a>
+		<a class="navbar-brand" href="#">Instant Flash</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
 				<a class="nav-item nav-link active" href="#">About Us <span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link" href="#">Service</a>
+				<a class="nav-item nav-link" href="#">Services</a>
 				<a class="nav-item nav-link" href="#">Pricing</a>
-				<a class="nav-item nav-link" href="#">Trusted By</a>
 				<a class="nav-item nav-link" href="#">Meet Our Team</a>
+				<a class="nav-item nav-link" href="#">Trusted By</a>
+				<a class="nav-item nav-link" href="#">Contact Us</a>
 			</div>
 		</div>
 	</nav>
 
 	<!--Header-->
 	<header class="d-flex align-items-center">
-		<h1>Instant Flash Photography</h1>
-		<p>We strive to provide the skills our students need to help them deliver what they had always imagined.</p>
-		<button type="button" class="btn btn-primary">Pricing</button>
-		<button type="button" class="btn btn-secondary">Contact Us</button>
+		<div class="container">
+			<h1>Instant Flash</h1>
+			<font color="dark red">We strive to provide the skills our students need to help them deliver what they had always imagined. Just like how beauty comes in all forms and a picture is worth a thousand words, we believe if you can imagine it, you can Instant Flash</font>
+			<button type="button" class="btn btn-primary">Pricing</button>
+			<button type="button" class="btn btn-secondary">Contact Us</button>
+		</div>
 	</header>
 
 	<!--Pricing-->
@@ -44,19 +45,26 @@
 		<hr>
 		<div class="row">
 			<div class="col-md-4">
-				<h4>Weekly</h4>
+				<h2>Weekly</h2>
 				<hr>
-				<h1>$80</h1>
+				<h2>$80</h2>
+				<p>The Weekly package offers two classes per week, every Monday and Friday.</p>
+				<p>Time: 3:30PM - 6:30PM</p>
 			</div>
 			<div class="col-md-4">
-				<h4>Monthly</h4>
+				<h2>Monthly</h2>
 				<hr>
-				<h1>$200</h1>
+				<h2>$200</h2>
+				<p>The Monthly pacakage offers eight classes per month, two classes per week, every Monday and Friday.</p>
+				<p>Time: 3:30 - 6:30PM</p>
+				<p>You save 17% on each class with this package!</p>
 			</div>
 			<div class="col-md-4">
-				<h4>9-Month Semester</h4>
+				<h2>9-Month Semester</h2>
 				<hr>
-				<h1>$1600</h1>
+				<h2>$1600</h2>
+				<p>The nine-month pacakage offers *number* classes per month, *number* classes per week, every Monday and Friday</p>
+				<p>Time: 3:30PM - 6:30PM</p>
 			</div>
 		</div>
 	</section>
@@ -65,58 +73,61 @@
 	<section class="contact container">
 		<h1>Contacts</h1>
 		<div class="row">
-			<div class="col-md-6"></div>
+			<div class="col-md-3"></div>
 			<div class="input-group input-group-lg">
 				<div class="input-group-prepend">
 					<span class="input-group-text" id="inputGroup-sizing-lg">Name</span>
 				</div>
 				<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
 			</div>
+			<div class="col-md-3"></div>
 			<div class="input-group input-group-lg">
 				<div class="input-group-prepend">
 					<span class="input-group-text" id="inputGroup-sizing-lg">Email</span>
 				</div>
 				<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
 			</div>
+			<div class="col-md-3"></div>
 			<div class="input-group input-group-lg">
 				<div class="input-group-prepend">
 					<span class="input-group-text" id="inputGroup-sizing-lg">Phone #</span>
 				</div>
 				<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
 			</div>
-			<div class="col-md-6"></div>
+			<div class="col-md-3"></div>
 			<div class="input-group">
-        		<textarea class="form-control" aria-label="With textarea"></textarea>
-            		<button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-			
+				<textarea class="form-control" aria-label="With textarea"></textarea>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</div>
 	</section>
 
 
-
+	<!--Services-->
 	<section class=" services container ">
 		<h1> Services We Provide </h1>
 		<div class="row ">
 			<div class="col">
 				<i class="fas fa-camera "></i>" <span><strong>Premium Photos</strong></span>
-				<p> Students learn to create a wide variety of photos</p>
+				<p>Students learn to create a wide variety of photos.These photos offer more artistic, that have a higher production value, and a different, more unique aesthetics. </p>
 			</div>
 			<div class="col">
 				<i class="fab fa-adobe"></i>
 				<span><strong>  Adobe PhotoShop</strong></span>
 				<p>We also incorportate learning about editing photos in adobe photoshop</p>
-			<div class="row">
-				<div class="col">
-					
-			</div>
+				<div class="row">
+					<div class="col">
+						"<i class="fab fa-contao"></i>" <span><strong>Crello</strong></span>
+						<p>Visual editor that allows you to create social media images, add banners and posters, email headers, and other popular formats.</p>
+					</div>
+					<div class="row"></div>
+					<div class="col"></div>
 
+
+				</div>
 			</div>
-		</div>
 	</section>
 
-</body>
 
-<head>
 
 
 
@@ -124,36 +135,55 @@
 
 
 	<!--Meet Our Team-->
-	<service class="teams container">
+	<section class="teams container">
 		<h1>Teams</h1>
 		<p>We the best</p>
 		<hr>
 		<div class="row">
 			<div class="col-md-3">
-			    <img scr=""></img>
-				<h2>Mr. David</h2>
-				<h3>Director</h3>
-				<p>he pay us </p>
+				<img src="elon.jpg">
+				<h2>Mr. Musk</h2>
+				<h3>Founder</h3>
+				<p>He </p>
 			</div>
 			<div class="col-md-3">
-			    <h2>The guy</h2>
-                <h3>Janitor</h3>
-                <p>he cleans</p>
-            </div>    
+				<img src="kyrie.jpg">
+				<h2>Mr. Irving</h2>
+				<h3>Director</h3>
+				<p></p>
+			</div>
 			<div class="col-md-3">
-				<h2>Mr. Hakun</h2>
+				<img src="johnson.jpg">
+				<h2>Mr. Johnson</h2>
 				<h3>CEO</h3>
 				<p>He smart</p>
 			</div>
 			<div class="col-md-3">
-				<h2></h2>
+				<img src="gomez.jpg">
+				<h2>Ms. Gomez</h2>
 				<h3>COO</h3>
-				<P>she cool</P>
+				<p>she cool</p>
 			</div>
 		</div>
-		</section>
+	</section>
 
-	</service>
-</head>
+	<!-- Footer-->
+	<hr>
+	<section class="footer container">
+		<div class="row">
+			<div class="col-md-6">
+				<p> Contact Us</p>
+				<p><i class="fas fa-home"></i> Address: 44 Shirley Ave. West Chicago, IL 60185</p>
+				<p><i class="fas fa-envelope-square"></i> Email: instant@flash.com </p>
+				<p><i class="fas fa-phone"></i> Phone: (202) 555-0152</p>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
 
 </html>
