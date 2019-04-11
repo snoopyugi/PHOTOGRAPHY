@@ -2,46 +2,81 @@ body {
     background-color: lightblue;
 }
 
+
 nav{
     text-transform: uppercase;
-    font-family: PT Sans Narrow;
+    font: PT Sans Narrow;
 }
+
+.nav-link:hover{
+    font-style: italic;
+    background-color: gray;
+}
+
 
 header{
-
-   height: 1000px;
-   width:100%;
-   background-size:cover;
-   background-image:url("KC_HeaderTest1.jpeg");
-   
+    height: 860px;
+    width:100%;
+    background-size:cover;
+    background-image:url("KC_HeaderImage.jpg");
+    color: white;
+    text-align: left;
+    font: italic;
 }
+
+
+header p{
+    color: white;
+    color: black;
+    font-size: 25px;
+}
+
+
 .pricing h1{
     text-align: center;
 }
 
 .pricing{
     text-align: center;
-    background-color: white;
+    width: 100%;
+    min-width: 1000px;
 }
 
-header h1{
-    color: white;
-    text-align: center;
-}
-header p{
-    color: black;
-    font-size: 100pt;
-}
 
 .teams img {
-    height: 90px;
-    width: 90px;
-    border-radius: 60%;
+    height: 100px;
+    width: 100px;
+    border-radius: 120%;
 }
+
 
 .services{
     text-align: center;
+    height:30em;
+    width:100%;
+    background-size:cover;
+    background-image:url("photographer.jpg");
+    opacity: .85;
+    
+}
+
+.services p {
+     opacity: 1;
+}
+
+.contacts p{
+    width: 100px;
 }
 .footer {
-    
+    color: black;
+    height:200px;
+    width:100%;
+    background-size:cover;
+    background-image:url("sky.jpeg");
+    text-align:center;
+}
+
+.carousel-item {
+    height: 720px;
+    width: 100%;
 }
