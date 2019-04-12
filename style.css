@@ -40,8 +40,12 @@ header p{
     text-align: center;
     width: 100%;
     min-width: 1000px;
+    float: none;
 }
 
+.teams {
+    text-align: center;
+}
 
 .teams img {
     height: 100px;
@@ -56,12 +60,13 @@ header p{
     width:100%;
     background-size:cover;
     background-image:url("photographer.jpg");
-    opacity: .85;
+    opacity: 1;
     
 }
 
 .services p {
      opacity: 1;
+     font-weight: bold;
 }
 
 .contacts p{
@@ -79,4 +84,8 @@ header p{
 .carousel-item {
     height: 720px;
     width: 100%;
+}
+
+.checked {
+    color: orange;
 }
